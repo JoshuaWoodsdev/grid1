@@ -33,10 +33,12 @@ var promt1 = readlineSync.prompt('');
 // Wait for user's response. Should create a random area of map
 //placeShip();
 var userName = readlineSync.question('Enter a location to strike ie ');
-  //will use the check method to compare IF its in the array
+  //will use the check method to compare IF its in the array 
+  // call the function
 
   //const operation = readlineSync.question(
   //will use the limit I understand it limits user to what I set
+  //call the funciton
 
   //'Please enter a operation  (+, -, *, /): ',
   //{limit: math, //limit will check the math array if wrong it displays the error
