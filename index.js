@@ -12,11 +12,12 @@ var prompt1= null;
   //?keep score
 
 //functions
-//Step One
-  // const placeShip () => "
-    //(when a (promtone) is filled crate random ships in array )"";
-//Step two
- 
+//Step One place random ships
+  // const randomShips () => "
+    //function that places random ships on the grids;
+//Step two check if object in array
+  // const shipCheck () =>"
+    // a function 
 
 //logic
 //Step One
