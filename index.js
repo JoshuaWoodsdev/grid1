@@ -8,7 +8,8 @@ var prompt1= null;
 //classes=> objects
   //create a object for the ship(then a function the recreats them)
    // will (...spread) these randomllly into a array 
-//player 
+
+   //player 
   //?keep score
 
 //functions
@@ -17,9 +18,15 @@ var prompt1= null;
     //function that places random ships on the grids;
 //Step two check if object in array
   // const shipCheck () =>"
-    // a function 
-
+    // a function will create a check, the array IF the user input matches...if is does not they will have to try agian and print some text to try agian...but if it works it says  "Hit. You have sunk a battleship.
+    //this also has some sort of counter on the ship object?
+    //add a check if user had picked a spot and say try again?"You have already picked this location. Miss!" maybe a loop?
+//Step Three
+  //have a function that when COUNTER reaches 0 so a IF  shipOBject is less than 1 then {console prompt "You have destroyed all battleships. Would you like to play again? Y/N"}
+  //if user puts restart the game in no break or ends the game
 //logic
+
+
 //Step One
 console.log('Press any key to start the game');
 var promt1 = readlineSync.prompt('');
@@ -38,6 +45,7 @@ var userName = readlineSync.question('Enter a location to strike ie ');
 
   
  //Step two
+//Step three
 
 //do the check in the array
  
