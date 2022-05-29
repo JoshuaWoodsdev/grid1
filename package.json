@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "random": "^3.0.6",
     "readline-sync": "^1.4.10"
   }
 }
