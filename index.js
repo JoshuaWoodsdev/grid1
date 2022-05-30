@@ -2,20 +2,22 @@
 var readlineSync = require('readline-sync');
 
 //var
-var prompt1= null;
-//array
 
-//classes=> objects
+//array
+  //(Array grid goes into a class or function)
+
+  //classes=> objects
   //create a object for the ship(then a function the recreats them)
    // will (...spread) these randomllly into a array 
 
    //player 
-  //?keep score
 
 //functions
 //Step One place random ships
-  // const randomShips () => "
+  // const placeShips() => "
     //function that places random ships on the grids;
+//keep the player score of ships
+
 //Step two check if object in array
   // const shipCheck () =>"
     // a function will create a check, the array IF the user input matches...if is does not they will have to try agian and print some text to try agian...but if it works it says  "Hit. You have sunk a battleship.
@@ -32,23 +34,12 @@ console.log('Press any key to start the game');
 var promt1 = readlineSync.prompt('');
 // Wait for user's response. Should create a random area of map
 //placeShip();
+
 var userName = readlineSync.question('Enter a location to strike ie ');
-  //will use the check method to compare IF its in the array 
-  // call the function
-
-  //const operation = readlineSync.question(
-  //will use the limit I understand it limits user to what I set
-  //call the funciton
-
-  //'Please enter a operation  (+, -, *, /): ',
-  //{limit: math, //limit will check the math array if wrong it displays the error
-  //limitMessage: "This is not a valid operation"
+   //''Enter a location to strike ie  (+, -, *, /): ',
+  //{limit: (NAME OF THE BOARD), //limit will check the math array if wrong it displays the error
+  //limitMessage: "You have missed"
  // }
-
-  
- //Step two
-//Step three
-
-//do the check in the array
- 
-//if not{please try again}
+    
+ //(COUNTER);
+   
