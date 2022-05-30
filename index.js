@@ -1,16 +1,12 @@
 //When the user presses the key, your code will randomly place two different ships in two separate locations on the board. Each ship is only 1 unit long (In the real game ships are 2+ in length).
 var readlineSync = require('readline-sync');
 
-//var
-
 //array
   //(Array grid goes into a class or function)
 
   //classes=> objects
   //create a object for the ship(then a function the recreats them)
    // will (...spread) these randomllly into a array 
-
-   //player 
 
 //functions
 //Step One place random ships
@@ -41,5 +37,4 @@ var userName = readlineSync.question('Enter a location to strike ie 'A2');
   //limitMessage: "not a valid location"
  // }
     
- //(COUNTER);
-   
+ //(COUNTER)
