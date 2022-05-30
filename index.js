@@ -14,9 +14,8 @@ var readlineSync = require('readline-sync');
 
 //functions
 //Step One place random ships
-  // const placeShips() => "
+  // const placeShip() => "
     //function that places random ships on the grids;
-//keep the player score of ships
 
 //Step two check if object in array
   // const shipCheck () =>"
@@ -35,8 +34,8 @@ var promt1 = readlineSync.prompt('');
 // Wait for user's response. Should create a random area of map
 //placeShip();
 
-var userName = readlineSync.question('Enter a location to strike ie ');
-   //''Enter a location to strike ie  (+, -, *, /): ',
+var userName = readlineSync.question('Enter a location to strike ie 'A2' ');
+
   //{limit: (NAME OF THE BOARD), //limit will check the math array if wrong it displays the error
   //limitMessage: "You have missed"
  // }
