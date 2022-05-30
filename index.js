@@ -1,44 +1,22 @@
 //When the user presses the key, your code will randomly place two different ships in two separate locations on the board. Each ship is only 1 unit long (In the real game ships are 2+ in length).
 var readlineSync = require('readline-sync');
-const random = require('random'); 
 
 //var
-<<<<<<< HEAD
 
 //array
   //(Array grid goes into a class or function)
 
   //classes=> objects
-=======
-   
-//array
-   let arrayOne = "";
-   let arrayTwo = "";
-   let arrayThree = "";
-//classes
->>>>>>> 488d2a68023307e79c6ed88d193dc65c5f33433f
   //create a object for the ship(then a function the recreats them)
    // will (...spread) these randomllly into a array 
+
    //player 
-<<<<<<< HEAD
-=======
-  //keep score
-  //ships keep score
->>>>>>> 488d2a68023307e79c6ed88d193dc65c5f33433f
 
 //functions
-
 //Step One place random ships
-<<<<<<< HEAD
   // const placeShips() => "
     //function that places random ships on the grids;
 //keep the player score of ships
-=======
-   
-  // const randomShips () => "
-    //function that places random ships on the grids;
-
->>>>>>> 488d2a68023307e79c6ed88d193dc65c5f33433f
 
 //Step two check if object in array
   // const shipCheck () =>"
@@ -57,11 +35,6 @@ var promt1 = readlineSync.prompt('');
 // Wait for user's response. Should create a random area of map
 //placeShip();
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 488d2a68023307e79c6ed88d193dc65c5f33433f
 var userName = readlineSync.question('Enter a location to strike ie ');
    //''Enter a location to strike ie  (+, -, *, /): ',
   //{limit: (NAME OF THE BOARD), //limit will check the math array if wrong it displays the error
