@@ -34,10 +34,11 @@ var promt1 = readlineSync.prompt('');
 // Wait for user's response. Should create a random area of map
 //placeShip();
 
-var userName = readlineSync.question('Enter a location to strike ie 'A2' ');
-
-  //{limit: (NAME OF THE BOARD), //limit will check the math array if wrong it displays the error
-  //limitMessage: "You have missed"
+//?Need a if statment 
+   //if ship is == || === to userinput console.log("Hit. You have sunk a battleship. 1 ship remaining.") else console.log(not valid location)
+var userName = readlineSync.question('Enter a location to strike ie 'A2');
+  //{limit: (NAME OF THE BOARD), //limit will check the array if its a valid location
+  //limitMessage: "not a valid location"
  // }
     
  //(COUNTER);
