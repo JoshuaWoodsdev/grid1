@@ -1,8 +1,18 @@
 //When the user presses the key, your code will randomly place two different ships in two separate locations on the board. Each ship is only 1 unit long (In the real game ships are 2+ in length).
 var readlineSync = require('readline-sync');
 
+let ships = 2;
+
 //array
-  //(Array grid goes into a class or function)
+let playBoard = [
+  ['Work', 9, 0],
+  ['Eat', 1, 0],
+  ['Commute', 2, 0],
+  ['Play Game', 1, 0],
+  ['Sleep', 7, 0]
+];
+
+ console.table(playBoard);
 
   //classes=> objects
   //create a object for the ship(then a function the recreats them)
@@ -25,16 +35,16 @@ var readlineSync = require('readline-sync');
 
 
 //Step One
-console.log('Press any key to start the game');
-var promt1 = readlineSync.prompt('');
+//console.log('Press any key to start the game');
+//var promt1 = readlineSync.prompt('');
 // Wait for user's response. Should create a random area of map
 //placeShip();
 
 //?Need a if statment 
    //if ship is == || === to userinput console.log("Hit. You have sunk a battleship. 1 ship remaining.") else console.log(not valid location)
-var userName = readlineSync.question('Enter a location to strike ie 'A2');
+//var userName = readlineSync.question('Enter a location to strike ie 'A2');
   //{limit: (NAME OF THE BOARD), //limit will check the array if its a valid location
   //limitMessage: "not a valid location"
  // }
-    
+    // user input is equal to what in the array?
  //(COUNTER)
